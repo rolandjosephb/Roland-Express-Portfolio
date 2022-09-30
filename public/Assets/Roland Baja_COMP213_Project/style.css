@@ -1,0 +1,85 @@
+div{
+width: 100%;
+height: auto;
+background-color:rgb(156, 192, 231);
+  text-align: left;	
+  border: 2px solid black;
+}
+
+body {
+  background-color: rgb(156, 192, 231);
+}
+header{
+  text-align: center;
+  width: 100%;
+
+
+}
+
+legend{
+
+  text-align: left;
+  background-color: rgb(156, 192, 231);
+padding: 5px;
+
+  width: 98%;
+}
+form{
+
+  text-align: center;
+  background-color: rgb(156, 192, 231);
+
+margin: auto;
+  width: 80%;
+
+}
+
+
+h1 {
+  color: blue;
+}
+p {text-align: left;
+}
+footer{
+
+  text-align: center;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+ width: 99.7%;
+height: 100%;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+img{  
+width: 100%;
+    height: auto; }
+
+.bg {
+  
+  background-image: url("wallpaper.jpg");
+
+  
+  height: 100%; 
+
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
