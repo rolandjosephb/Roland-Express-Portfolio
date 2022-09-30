@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
+
+<body class="bg">
+    <header>
+        <h1>
+            Information Submitted
+        </h1>
+    </header>
+
+    <article>
+        <fieldset>
+            <div class="results">
+                <h3>Please check the information that you put:</h3>
+
+                <script>
+                    var formData = location.search;
+                    formData = formData.substring(1, formData.length);
+                    while (formData.indexOf("+") !== -1) {
+                        formData = formData.replace("+", " ");
+                    }
+
+                    formData = decodeURIComponent(formData);
+                    var formArray = formData.split("&");
+                    for (var i = 0; i < formArray.length; i = i + 1) {
+                        document.write("<p>" + formArray[i] + "</p>");
+                    }
+                </script>
+            </div>
+            </fieldset>
+</article>
+</body>
+</html>

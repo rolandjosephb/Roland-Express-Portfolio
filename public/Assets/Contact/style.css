@@ -1,0 +1,53 @@
+div{
+width: 100%;
+height: auto;
+background-color:rgb(156, 192, 231);
+  text-align: center;	
+  border: 2px solid black;
+
+}
+
+body {
+  background-color: rgb(156, 192, 231);
+}
+header{
+  text-align: center;
+  width: 100%;
+
+
+}
+
+
+fieldset{
+
+  text-align: center;
+  background-color: rgb(156, 192, 231);
+
+margin: auto;
+  width: 60%;
+
+}
+
+
+
+
+
+
+img{  
+width: 100%;
+    height: auto; }
+
+.bg {
+  
+  background-image: url("wallpaper.jpg");
+
+  
+  height: 100%; 
+
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
