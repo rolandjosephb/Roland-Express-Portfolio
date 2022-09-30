@@ -4,16 +4,20 @@ var router = express.Router();
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'home',});
+
+  
 });
 
 /* GET home page. */
 router.get('/home', function(req, res, next) {
   res.render('index', { title: 'home',});
+
 });
 
 /* GET About Us page. */
 router.get('/about', function(req, res, next) {
-  res.render('index', { title: 'About Us',});
+  res.render('aboutme', { title: 'About Us',});
+  
 });
 
 /* GET Products page. */
@@ -29,6 +33,7 @@ router.get('/services', function(req, res, next) {
 /* GET Contact Us page. */
 router.get('/contact', function(req, res, next) {
   res.render('index', { title: 'Contact',});
+
 });
 
 module.exports = router;
